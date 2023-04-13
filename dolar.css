@@ -1,7 +1,3 @@
-  doctype {
-    display: none;
-}
-
 /* Estilos CSS para el contenedor del iframe */
 #cotizacion {
     display: flex;
@@ -15,4 +11,7 @@
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     border: 1px solid #bcbcbc;
   }
+doctype {
+    display: none;
+}
   

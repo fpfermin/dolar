@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cotización Dólar Blue</title>
+    <style>
+      /* Estilos CSS para el contenedor del iframe */
+      #cotizacion {
+        display: flex;
+        justify-content: center;
+      }
+      /* Estilos CSS para el iframe */
+      #cotizacion iframe {
+        width: 320px;
+        height: 260px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 1px solid #bcbcbc;
+      }
+      /* Ocultar doctype */
+      html:before {
+        content: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cotizacion">
+      <iframe src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0"></iframe>
+    </div>
+  </body>
+</html>

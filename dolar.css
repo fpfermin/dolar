@@ -1,19 +1,19 @@
 /* Estilos CSS para el contenedor del iframe */
 #cotizacion {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* Estilos CSS para el iframe */
 #cotizacion iframe {
-  width: 320px;
-  height: 260px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 1px solid #bcbcbc;
+    width: 320px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #bcbcbc;
 }
 
-/* Ocultar el doctype */
-!DOCTYPE {
-  display: none;
+/* Estilos CSS para ocultar el DOCTYPE */
+html:before {
+    content: none !important;
 }
